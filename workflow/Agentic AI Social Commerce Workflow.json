@@ -1,0 +1,943 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -608,
+        -64
+      ],
+      "id": "8c055c7a-7732-4c98-a6e0-25089c1e492b",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "419b44a4-4fc6-4e44-84fa-b2f88bf17cd1",
+              "name": "message",
+              "value": "Is P001 available?",
+              "type": "string"
+            },
+            {
+              "id": "ffd0bf78-b2b6-4806-b9a7-79dada9d3722",
+              "name": "platform_user_id",
+              "value": "PLAT900117",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -448,
+        -208
+      ],
+      "id": "ebc4b1a8-c2db-402c-bc85-d450dcabc9eb",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 3
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.intent }}",
+                    "rightValue": "=Inventory Check",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "4896904a-593f-41aa-a6f0-988c154a5f17"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Inventory Check"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 3
+                },
+                "conditions": [
+                  {
+                    "id": "9f657ea2-0b4d-4012-991b-03b65b6bac4f",
+                    "leftValue": "={{ $json.intent }}",
+                    "rightValue": "Order Tracking",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Order Tracking"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 3
+                },
+                "conditions": [
+                  {
+                    "id": "e7b1d104-c755-4a34-b207-3d8812cbab07",
+                    "leftValue": "={{ $json.intent }}",
+                    "rightValue": "Product Information",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Product Information"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 3
+                },
+                "conditions": [
+                  {
+                    "id": "be108689-5bf1-40f4-b683-d92eefdad3f9",
+                    "leftValue": "={{ $json.intent }}",
+                    "rightValue": "Shipping Query",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Shipping Query"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 3
+                },
+                "conditions": [
+                  {
+                    "id": "d79da9c1-74bd-4ffc-8989-2624e59853b3",
+                    "leftValue": "={{ $json.intent }}",
+                    "rightValue": "Human Support",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Human Support"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 3
+                },
+                "conditions": [
+                  {
+                    "id": "119b5cf6-2cef-44c7-a1c9-6bbfcd5bf4c2",
+                    "leftValue": "={{ $json.intent }}",
+                    "rightValue": "Multiple Intents",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Multiple Intents"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.4,
+      "position": [
+        192,
+        -128
+      ],
+      "id": "ca54a471-cef3-4d68-b7b3-e41a24b5c934",
+      "name": "Switch"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    product_id,\n    product_name,\n    category,\n    price,\n    material,\n    active_status\nFROM products\nWHERE product_id = $1;",
+        "options": {
+          "queryReplacement": "{{ $('Edit Fields1').item.json.product_id }}"
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.7,
+      "position": [
+        1040,
+        -192
+      ],
+      "id": "24659a3c-1bce-49d4-b61b-520171b0a23b",
+      "name": "Give Product Info",
+      "credentials": {
+        "postgres": {
+          "id": "2e9aEsusBxfqMK5J",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7ba53646-1859-4bf3-96bc-4dfba5cdbef0",
+              "name": "response",
+              "value": "Standard delivery time is 3–8 business days across India. Returns or exchanges can be requested within 7 days of delivery, subject to the product meeting the return/exchange conditions.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        736,
+        16
+      ],
+      "id": "1377ffa5-f359-46f5-bd2f-974ddaec626a",
+      "name": "Std Shipping Query"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    p.product_id,\n    p.product_name,\n    p.price,\n    p.material,\n    pv.colour,\n    pv.size,\n    pv.stock_qty\nFROM products p\nJOIN product_variants pv\n    ON p.product_id = pv.product_id\nWHERE p.product_id = $1\n  AND pv.size = $2;",
+        "options": {
+          "queryReplacement": "={{ $json.product_id }}, {{ $json.size }}"
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.7,
+      "position": [
+        752,
+        -688
+      ],
+      "id": "4179a1a9-dcd3-4691-87fa-e11376634777",
+      "name": "Inventory Check",
+      "credentials": {
+        "postgres": {
+          "id": "2e9aEsusBxfqMK5J",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "281083eb-a011-41f4-ac8c-f70ea9a39640",
+              "name": "response",
+              "value": "={{\n  $json.colour + \" - Size \" + $json.size + \": \" +\n  (\n    $json.stock_qty === 0\n      ? \"Currently out of stock\"\n      : $json.stock_qty <= 5\n        ? \"Only \" + $json.stock_qty + \" pieces left\"\n        : \"Available\"\n  )\n}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        944,
+        -608
+      ],
+      "id": "29966602-9237-405a-96ee-2958fce09442",
+      "name": "Final Inventory"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    order_id,\n    order_status,\n    expected_delivery_date\nFROM orders\nWHERE platform_user_id = $1\n  AND order_status IN (\n      'Placed',\n      'Processing',\n      'Shipped',\n      'Out for Delivery'\n  )\nORDER BY order_date DESC;",
+        "options": {
+          "queryReplacement": "={{ $('Edit Fields').item.json.platform_user_id }}"
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.7,
+      "position": [
+        448,
+        -208
+      ],
+      "id": "b303d5c4-320c-4234-b6f7-bd5b283a51d9",
+      "name": "Order Tracking",
+      "credentials": {
+        "postgres": {
+          "id": "2e9aEsusBxfqMK5J",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e671778b-b696-41ca-9d56-3a24fe405db3",
+              "name": "response",
+              "value": "I’ll connect you with our support team for further assistance.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        960,
+        144
+      ],
+      "id": "33943dd3-5ff8-4f84-889a-abb59ea6f166",
+      "name": "Human Support"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are classifying a customer message for a retail social commerce assistant.\n\nCustomer message:\n{{ $json.message }}\n\nChoose exactly one intent:\n\n1. Inventory Check\n- stock availability\n- size availability\n- colour availability\n\n2. Product Information\n- price\n- material\n- category\n- general product details\n\n3. Order Tracking\n- order status\n- expected delivery\n- where is my order\n\n4. Shipping Query\n- delivery time\n- shipping questions\n- return period\n- exchange period\n- standard return/exchange timeline\n\n5. Human Support\n- customer wants to actually return an order\n- refund request\n- cancellation request\n- complaint\n- damaged or wrong item\n- asks for human assistance\n\n6. Multiple Intents\n- customer asks two or more different types of requests in the same message\n\n7. Unsupported Query\n- message is unrelated to the supported retail services\n\nImportant:\nA question asking for return/exchange information or timeline,\nsuch as \"Within how many days can I return?\"\nmust be classified as Shipping Query.\n\nA request to actually perform a return/refund,\nsuch as \"I want to return my order\",\nmust be classified as Human Support.\n\nDo not invent missing product IDs, sizes or colours.\n\nIf the customer asks for product information but does not provide a product_id,\nstill classify it as Product Information and return product_id as null.\n\nIf the customer asks about inventory but required product details are missing,\nstill classify it as Inventory Check and return missing values as null.\n\nIf the customer asks more than one supported request in the same message,\nclassify it as Multiple Intents.\n\nIf the request is unrelated to the supported services,\nclassify it as Unsupported Query.\n\n\nAlso extract these entities if mentioned:\n- product_id\n- size\n- colour\n\nIf an entity is not mentioned, return null.\n\nReturn only in this format:\n\nintent: <intent>\nproduct_id: <product_id or null>\nsize: <size or null>\ncolour: <colour or null>",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": []
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        -304,
+        -32
+      ],
+      "id": "13e7e18e-c5fd-4a63-af20-0d81333e55c9",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-oss-20b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        160
+      ],
+      "id": "4f11e1a9-1722-4aa0-bfea-3ad1e9cb7e6d",
+      "name": "Groq Chat Model",
+      "credentials": {
+        "groqApi": {
+          "id": "5SOvRNgMSwM2drWJ",
+          "name": "Groq account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"intent\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Inventory Check\",\n        \"Product Information\",\n        \"Order Tracking\",\n        \"Shipping Query\",\n        \"Human Support\",\n        \"Multiple Intents\",\n        \"Unsupported Query\"\n      ]\n    },\n    \"product_id\": {\n      \"type\": [\"string\", \"null\"]\n    },\n    \"size\": {\n      \"type\": [\"string\", \"null\"]\n    },\n    \"colour\": {\n      \"type\": [\"string\", \"null\"]\n    }\n  },\n  \"required\": [\n    \"intent\",\n    \"product_id\",\n    \"size\",\n    \"colour\"\n  ],\n  \"additionalProperties\": false\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -160,
+        160
+      ],
+      "id": "0f84dc75-fd80-43c7-97a1-e7bf9cd7ee70",
+      "name": "Structured Output Parser"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "83cbca39-7fbc-445f-856b-5ee15b94a0eb",
+              "name": "intent",
+              "value": "={{ $json.output.intent }}",
+              "type": "string"
+            },
+            {
+              "id": "c405b5b9-06b1-47a6-885b-9a64de8e5848",
+              "name": "product_id",
+              "value": "={{ $json.output.product_id }}",
+              "type": "string"
+            },
+            {
+              "id": "e26a263c-430b-4e1c-89c3-f7729360e787",
+              "name": "size",
+              "value": "={{ $json.output.size }}",
+              "type": "string"
+            },
+            {
+              "id": "4e355055-4fd6-40bf-aea9-f2b35cba3ecd",
+              "name": "colour",
+              "value": "={{ $json.output.colour }}",
+              "type": "string"
+            },
+            {
+              "id": "fc82d108-8fef-4dcf-a045-019caa0299bb",
+              "name": "platform_user_id",
+              "value": "={{ $('Edit Fields').item.json.platform_user_id }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        16,
+        -48
+      ],
+      "id": "2e86b0bc-114f-4630-b874-386adf2616f1",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c0ad3b1e-8d29-4590-9400-aebd34fa75a7",
+              "name": "response",
+              "value": "=Hi! Please find the product details below. Product: {{ $json.product_name }} | Category: {{ $json.category }} | Price: ₹{{ $json.price }} | Material: {{ $json.material }} | Status: {{ $json.active_status }}. Let me know if you’d like help with size or stock availability.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        1232,
+        -192
+      ],
+      "id": "7b1f3f11-dc20-4673-a5e7-0623a86968f0",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "46c75c65-913b-4804-8cc1-75b96905da28",
+              "name": "response",
+              "value": "=Hi! Here is your order update. Order ID: {{ $json.order_id }} | Status: {{ $json.order_status }} | Expected Delivery: {{ $json.expected_delivery_date }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        736,
+        -240
+      ],
+      "id": "73aaae1d-950f-4f4e-af58-be70c49e5f4f",
+      "name": "Edit Fields3"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c67b66b7-775c-444c-b7c6-87e95e5ebb65",
+              "name": "response",
+              "value": "I can help with product information, stock availability, order tracking, shipping and return/exchange timelines. Please let me know how I can help, or I can connect you with our support team for further assistance.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        640,
+        304
+      ],
+      "id": "5a59d559-0e61-4e20-937d-55e5ac709f95",
+      "name": "Unsupported Response"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "8e1da046-ceb9-45e5-b10d-9477a84d85f1",
+              "name": "response",
+              "value": "I can currently assist with one request at a time. Please let me know which you would like help with first: product information, stock availability, order tracking, shipping, or support.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        544,
+        144
+      ],
+      "id": "bde91d7e-8a9e-4f85-8438-7b9b5c7635ac",
+      "name": "Multi-Intent Response"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "035e126e-0b12-4e50-86dd-edea6604e5a8",
+              "leftValue": "={{ $json.product_id }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        592,
+        -96
+      ],
+      "id": "7156f37b-a517-473e-8174-d1d8ff2e4a83",
+      "name": "Product ID Present?"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e951a58a-00e5-4ee7-8a72-5acfce1ba432",
+              "name": "response",
+              "value": "Sure! Please share the product code, for example P001, so I can provide the product details.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        896,
+        -80
+      ],
+      "id": "b635bb51-71be-4183-932c-c6be68ed75bc",
+      "name": "Ask Product ID"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "a4b78ef3-ee63-4845-82d9-b981528c6574",
+              "leftValue": "={{ $json.product_id }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        368,
+        -384
+      ],
+      "id": "730d4a62-cace-4602-96c2-5048d3eb2633",
+      "name": "Inventory Product ID present?"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "81838748-ab72-47ca-8022-0c4534b47af0",
+              "name": "response",
+              "value": "Please share the product code you would like me to check, for example P001.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        592,
+        -368
+      ],
+      "id": "3e41e1a0-f342-467b-ab11-662c77524487",
+      "name": "Ask Inventory Product ID"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "52297fe2-ebef-44ed-ab50-92145109bda7",
+              "leftValue": "={{ $json.size }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        544,
+        -576
+      ],
+      "id": "f395f39f-6e79-49e1-b2a1-ad164bd8efc5",
+      "name": "Size Present"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    p.product_id,\n    p.product_name,\n    p.price,\n    p.material,\n    pv.colour,\n    pv.size,\n    pv.stock_qty\nFROM products p\nJOIN product_variants pv\n    ON p.product_id = pv.product_id\nWHERE p.product_id = $1;",
+        "options": {
+          "queryReplacement": "={{ $json.product_id }}"
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.7,
+      "position": [
+        752,
+        -496
+      ],
+      "id": "370423ef-8fff-4354-ac6b-01c32edf623a",
+      "name": "Execute a SQL query",
+      "credentials": {
+        "postgres": {
+          "id": "2e9aEsusBxfqMK5J",
+          "name": "Postgres account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch": {
+      "main": [
+        [
+          {
+            "node": "Inventory Product ID present?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Order Tracking",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Product ID Present?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Std Shipping Query",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Human Support",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Multi-Intent Response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Unsupported Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Give Product Info": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Inventory Check": {
+      "main": [
+        [
+          {
+            "node": "Final Inventory",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Order Tracking": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Product ID Present?": {
+      "main": [
+        [
+          {
+            "node": "Give Product Info",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ask Product ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Inventory Product ID present?": {
+      "main": [
+        [
+          {
+            "node": "Size Present",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ask Inventory Product ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Size Present": {
+      "main": [
+        [
+          {
+            "node": "Inventory Check",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Execute a SQL query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a SQL query": {
+      "main": [
+        [
+          {
+            "node": "Final Inventory",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "e22b3d95-eb66-4a46-9f01-ebac0d9af9a3",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f04d78c61c7bfde9d5ba8c51041b8d1a5c336ebe76227495dd53c8a4c419ff0a"
+  },
+  "nodeGroups": [],
+  "id": "Z5UaLcozsIJXu0Lh",
+  "tags": []
+}
