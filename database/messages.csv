@@ -1,0 +1,601 @@
+message_id,platform_user_id,sender_type,message_text,intent,timestamp,current_product_id
+MSG00001,PLAT900149,Customer,How long does delivery usually take?,Shipping Query,2026-07-22 15:29:00,
+MSG00002,PLAT900036,Customer,Is size L available?,Inventory Check,2026-09-06 19:36:00,P017
+MSG00003,PLAT900107,Customer,I want to return my order.,Human Support,2026-08-20 22:50:00,
+MSG00004,PLAT900058,Customer,What colours are available?,Product Information,2026-09-28 20:04:00,P039
+MSG00005,PLAT900116,Customer,I received the wrong item.,Human Support,2026-06-04 18:26:00,
+MSG00006,PLAT900042,Customer,Do you have this in black?,Inventory Check,2026-09-28 05:30:00,P050
+MSG00007,PLAT900188,Customer,What colours are available?,Product Information,2026-07-04 22:37:00,P056
+MSG00008,PLAT900045,Customer,Do you deliver across India?,Shipping Query,2026-08-10 22:15:00,
+MSG00009,PLAT900161,Customer,Is this available in M?,Inventory Check,2026-09-29 18:53:00,P063
+MSG00010,PLAT900010,Customer,Can you tell me more about this item?,Product Information,2026-06-04 17:06:00,P057
+MSG00011,PLAT900029,Customer,Is size L available?,Inventory Check,2026-08-10 02:38:00,P014
+MSG00012,PLAT900060,Customer,I received the wrong item.,Human Support,2026-06-21 15:41:00,
+MSG00013,PLAT900016,Customer,What is the price of this product?,Product Information,2026-05-03 04:56:00,P075
+MSG00014,PLAT900138,Customer,What material is this?,Product Information,2026-08-05 14:34:00,P038
+MSG00015,PLAT900067,Customer,What is the usual delivery time?,Shipping Query,2026-04-03 06:43:00,
+MSG00016,PLAT900198,Customer,Has my order been shipped?,Order Tracking,2026-07-10 21:19:00,
+MSG00017,PLAT900084,Customer,Do you deliver across India?,Shipping Query,2026-03-12 18:00:00,
+MSG00018,PLAT900182,Customer,I want to cancel my order.,Human Support,2026-06-30 04:54:00,
+MSG00019,PLAT900035,Customer,Where is my order?,Order Tracking,2026-05-29 17:03:00,
+MSG00020,PLAT900089,Customer,What colours are available?,Product Information,2026-08-07 09:55:00,P004
+MSG00021,PLAT900093,Customer,Is this currently in stock?,Inventory Check,2026-08-31 18:25:00,P081
+MSG00022,PLAT900107,Customer,When will my order arrive?,Order Tracking,2026-08-20 12:27:00,
+MSG00023,PLAT900157,Customer,I want a refund.,Human Support,2026-09-16 05:30:00,
+MSG00024,PLAT900082,Customer,Do you have this in black?,Inventory Check,2026-08-07 12:53:00,P047
+MSG00025,PLAT900172,Customer,How many days does shipping take?,Shipping Query,2026-07-31 21:08:00,
+MSG00026,PLAT900143,Customer,Is this available in M?,Inventory Check,2026-02-15 20:01:00,P019
+MSG00027,PLAT900097,Customer,What is the usual delivery time?,Shipping Query,2026-05-19 02:08:00,
+MSG00028,PLAT900162,Customer,What is the usual delivery time?,Shipping Query,2026-09-20 19:59:00,
+MSG00029,PLAT900113,Customer,How many days does shipping take?,Shipping Query,2026-08-31 16:27:00,
+MSG00030,PLAT900188,Customer,I received the wrong item.,Human Support,2026-08-18 11:14:00,
+MSG00031,PLAT900180,Customer,Is this currently in stock?,Inventory Check,2026-08-23 00:36:00,P064
+MSG00032,PLAT900166,Customer,Is size L available?,Inventory Check,2026-05-13 17:36:00,P047
+MSG00033,PLAT900175,Customer,What is the price of this product?,Product Information,2026-09-14 15:45:00,P048
+MSG00034,PLAT900129,Customer,Can you tell me more about this item?,Product Information,2026-09-01 04:46:00,P094
+MSG00035,PLAT900095,Customer,My product arrived damaged.,Human Support,2026-09-08 16:05:00,
+MSG00036,PLAT900129,Customer,I want to cancel my order.,Human Support,2026-09-01 07:30:00,
+MSG00037,PLAT900029,Customer,What colours are available?,Product Information,2026-05-12 10:34:00,P100
+MSG00038,PLAT900004,Customer,Can you tell me more about this item?,Product Information,2026-07-29 16:57:00,P061
+MSG00039,PLAT900184,Customer,Please connect me with customer support.,Human Support,2026-07-29 13:22:00,
+MSG00040,PLAT900159,Customer,Has my order been shipped?,Order Tracking,2026-05-25 01:44:00,
+MSG00041,PLAT900087,Customer,Please connect me with customer support.,Human Support,2026-08-29 23:50:00,
+MSG00042,PLAT900125,Customer,My product arrived damaged.,Human Support,2026-03-29 20:30:00,
+MSG00043,PLAT900015,Customer,I want a refund.,Human Support,2026-08-26 01:42:00,
+MSG00044,PLAT900076,Customer,Where is my order?,Order Tracking,2026-07-06 15:05:00,
+MSG00045,PLAT900092,Customer,Is this available in M?,Inventory Check,2026-09-21 08:16:00,P017
+MSG00046,PLAT900046,Customer,My product arrived damaged.,Human Support,2026-06-17 08:00:00,
+MSG00047,PLAT900020,Customer,What material is this?,Product Information,2026-09-21 18:47:00,P020
+MSG00048,PLAT900103,Customer,Do you deliver across India?,Shipping Query,2026-09-12 05:16:00,
+MSG00049,PLAT900176,Customer,Is this currently in stock?,Inventory Check,2026-05-06 16:55:00,P005
+MSG00050,PLAT900183,Customer,Where is my order?,Order Tracking,2026-05-28 19:59:00,
+MSG00051,PLAT900082,Customer,Is this currently in stock?,Inventory Check,2026-09-01 13:49:00,P050
+MSG00052,PLAT900168,Customer,Is this currently in stock?,Inventory Check,2026-09-05 20:10:00,P027
+MSG00053,PLAT900068,Customer,Please connect me with customer support.,Human Support,2026-09-03 01:41:00,
+MSG00054,PLAT900044,Customer,Where is my order?,Order Tracking,2026-02-22 05:29:00,
+MSG00055,PLAT900024,Customer,What is the usual delivery time?,Shipping Query,2026-07-20 15:47:00,
+MSG00056,PLAT900002,Customer,I want a refund.,Human Support,2026-06-04 21:45:00,
+MSG00057,PLAT900083,Customer,What is the usual delivery time?,Shipping Query,2026-08-22 04:33:00,
+MSG00058,PLAT900058,Customer,How long does delivery usually take?,Shipping Query,2026-08-24 14:24:00,
+MSG00059,PLAT900194,Customer,Where is my order?,Order Tracking,2026-03-15 17:40:00,
+MSG00060,PLAT900104,Customer,When will my order arrive?,Order Tracking,2026-06-03 10:17:00,
+MSG00061,PLAT900199,Customer,Where is my order?,Order Tracking,2026-05-23 20:37:00,
+MSG00062,PLAT900180,Customer,What is the usual delivery time?,Shipping Query,2026-09-13 21:47:00,
+MSG00063,PLAT900109,Customer,Do you have this in black?,Inventory Check,2026-09-08 10:43:00,P089
+MSG00064,PLAT900105,Customer,Is size L available?,Inventory Check,2026-01-21 21:00:00,P009
+MSG00065,PLAT900119,Customer,Can you tell me more about this item?,Product Information,2026-04-16 16:06:00,P088
+MSG00066,PLAT900112,Customer,Do you deliver across India?,Shipping Query,2026-04-30 23:18:00,
+MSG00067,PLAT900155,Customer,Can you check my order status?,Order Tracking,2026-08-14 00:39:00,
+MSG00068,PLAT900052,Customer,What is the price of this product?,Product Information,2026-09-26 21:57:00,P028
+MSG00069,PLAT900149,Customer,Please connect me with customer support.,Human Support,2026-06-23 22:07:00,
+MSG00070,PLAT900152,Customer,What material is this?,Product Information,2026-05-22 21:48:00,P083
+MSG00071,PLAT900126,Customer,I want a refund.,Human Support,2026-09-28 03:44:00,
+MSG00072,PLAT900187,Customer,Is size L available?,Inventory Check,2026-07-25 14:42:00,P010
+MSG00073,PLAT900047,Customer,Do you deliver across India?,Shipping Query,2026-09-02 22:57:00,
+MSG00074,PLAT900180,Customer,Has my order been shipped?,Order Tracking,2026-06-27 02:17:00,
+MSG00075,PLAT900088,Customer,Can you tell me more about this item?,Product Information,2026-08-02 10:03:00,P034
+MSG00076,PLAT900048,Customer,Can you check my order status?,Order Tracking,2026-09-06 02:31:00,
+MSG00077,PLAT900190,Customer,Is this currently in stock?,Inventory Check,2026-04-13 20:31:00,P014
+MSG00078,PLAT900102,Customer,Is this currently in stock?,Inventory Check,2026-07-16 19:41:00,P014
+MSG00079,PLAT900113,Customer,Do you deliver across India?,Shipping Query,2026-03-04 01:04:00,
+MSG00080,PLAT900194,Customer,What colours are available?,Product Information,2026-09-05 14:01:00,P064
+MSG00081,PLAT900188,Customer,Is this available in M?,Inventory Check,2026-05-21 21:24:00,P035
+MSG00082,PLAT900112,Customer,Is size L available?,Inventory Check,2026-06-13 18:00:00,P066
+MSG00083,PLAT900197,Customer,What is the usual delivery time?,Shipping Query,2026-09-12 12:54:00,
+MSG00084,PLAT900046,Customer,What material is this?,Product Information,2026-04-08 12:44:00,P100
+MSG00085,PLAT900126,Customer,How long does delivery usually take?,Shipping Query,2026-09-07 17:59:00,
+MSG00086,PLAT900124,Customer,Has my order been shipped?,Order Tracking,2026-09-26 09:25:00,
+MSG00087,PLAT900183,Customer,What is the price of this product?,Product Information,2026-07-23 17:54:00,P044
+MSG00088,PLAT900118,Customer,Can you tell me more about this item?,Product Information,2026-09-26 09:41:00,P026
+MSG00089,PLAT900035,Customer,Is this available in M?,Inventory Check,2026-06-02 21:12:00,P039
+MSG00090,PLAT900164,Customer,How long does delivery usually take?,Shipping Query,2026-09-22 22:22:00,
+MSG00091,PLAT900170,Customer,How long does delivery usually take?,Shipping Query,2026-08-15 14:47:00,
+MSG00092,PLAT900134,Customer,Do you have this in black?,Inventory Check,2026-06-29 06:01:00,P093
+MSG00093,PLAT900004,Customer,I want a refund.,Human Support,2026-08-02 12:04:00,
+MSG00094,PLAT900165,Customer,Please connect me with customer support.,Human Support,2026-07-07 15:34:00,
+MSG00095,PLAT900169,Customer,How long does delivery usually take?,Shipping Query,2026-04-18 10:03:00,
+MSG00096,PLAT900133,Customer,Where is my order?,Order Tracking,2026-06-06 03:13:00,
+MSG00097,PLAT900147,Customer,I received the wrong item.,Human Support,2026-08-15 17:09:00,
+MSG00098,PLAT900039,Customer,I want a refund.,Human Support,2026-03-27 01:47:00,
+MSG00099,PLAT900172,Customer,Is this currently in stock?,Inventory Check,2026-09-16 00:30:00,P080
+MSG00100,PLAT900033,Customer,What material is this?,Product Information,2026-09-26 04:00:00,P023
+MSG00101,PLAT900099,Customer,What colours are available?,Product Information,2026-09-10 03:29:00,P079
+MSG00102,PLAT900043,Customer,Is this available in M?,Inventory Check,2026-07-26 03:31:00,P077
+MSG00103,PLAT900064,Customer,I want a refund.,Human Support,2026-07-15 06:27:00,
+MSG00104,PLAT900015,Customer,When will my order arrive?,Order Tracking,2026-06-24 03:43:00,
+MSG00105,PLAT900100,Customer,I want to cancel my order.,Human Support,2026-05-15 10:53:00,
+MSG00106,PLAT900019,Customer,Is this available in M?,Inventory Check,2026-09-07 05:21:00,P009
+MSG00107,PLAT900164,Customer,What colours are available?,Product Information,2026-08-22 13:10:00,P090
+MSG00108,PLAT900017,Customer,Can you check my order status?,Order Tracking,2026-09-07 07:59:00,
+MSG00109,PLAT900132,Customer,I want to return my order.,Human Support,2026-04-14 03:50:00,
+MSG00110,PLAT900150,Customer,I received the wrong item.,Human Support,2026-09-28 05:01:00,
+MSG00111,PLAT900069,Customer,How long does delivery usually take?,Shipping Query,2026-02-25 00:11:00,
+MSG00112,PLAT900166,Customer,What colours are available?,Product Information,2026-05-14 22:51:00,P099
+MSG00113,PLAT900188,Customer,How many days does shipping take?,Shipping Query,2026-07-03 04:40:00,
+MSG00114,PLAT900189,Customer,When will my order arrive?,Order Tracking,2026-05-09 07:11:00,
+MSG00115,PLAT900108,Customer,Please connect me with customer support.,Human Support,2026-02-03 19:11:00,
+MSG00116,PLAT900073,Customer,How long does delivery usually take?,Shipping Query,2026-07-10 09:22:00,
+MSG00117,PLAT900170,Customer,How long does delivery usually take?,Shipping Query,2026-07-27 07:12:00,
+MSG00118,PLAT900121,Customer,What is the price of this product?,Product Information,2026-07-03 11:55:00,P098
+MSG00119,PLAT900070,Customer,I want to cancel my order.,Human Support,2026-07-30 14:49:00,
+MSG00120,PLAT900016,Customer,Is size L available?,Inventory Check,2026-03-22 06:07:00,P020
+MSG00121,PLAT900084,Customer,What is the usual delivery time?,Shipping Query,2026-04-04 05:42:00,
+MSG00122,PLAT900199,Customer,What is the price of this product?,Product Information,2026-07-18 09:13:00,P056
+MSG00123,PLAT900058,Customer,Has my order been shipped?,Order Tracking,2026-09-15 01:06:00,
+MSG00124,PLAT900070,Customer,What material is this?,Product Information,2026-07-22 00:31:00,P066
+MSG00125,PLAT900182,Customer,What is the price of this product?,Product Information,2026-05-18 23:28:00,P076
+MSG00126,PLAT900197,Customer,My product arrived damaged.,Human Support,2026-09-10 06:47:00,
+MSG00127,PLAT900173,Customer,Can you check my order status?,Order Tracking,2026-05-19 10:14:00,
+MSG00128,PLAT900171,Customer,What material is this?,Product Information,2026-07-31 06:24:00,P029
+MSG00129,PLAT900052,Customer,Can you tell me more about this item?,Product Information,2026-09-23 15:03:00,P056
+MSG00130,PLAT900189,Customer,Do you have this in black?,Inventory Check,2026-09-18 19:29:00,P023
+MSG00131,PLAT900030,Customer,Do you deliver across India?,Shipping Query,2026-09-02 14:46:00,
+MSG00132,PLAT900081,Customer,Is size L available?,Inventory Check,2026-07-27 06:21:00,P017
+MSG00133,PLAT900147,Customer,What is the price of this product?,Product Information,2026-05-05 04:07:00,P060
+MSG00134,PLAT900113,Customer,What is the usual delivery time?,Shipping Query,2026-04-08 10:14:00,
+MSG00135,PLAT900107,Customer,Can you check my order status?,Order Tracking,2026-06-21 18:35:00,
+MSG00136,PLAT900008,Customer,Is this available in M?,Inventory Check,2026-08-24 16:31:00,P028
+MSG00137,PLAT900040,Customer,I received the wrong item.,Human Support,2026-09-16 08:00:00,
+MSG00138,PLAT900165,Customer,How many days does shipping take?,Shipping Query,2026-06-29 10:27:00,
+MSG00139,PLAT900052,Customer,I want a refund.,Human Support,2026-09-25 04:58:00,
+MSG00140,PLAT900198,Customer,I want to return my order.,Human Support,2026-06-01 01:02:00,
+MSG00141,PLAT900103,Customer,How long does delivery usually take?,Shipping Query,2026-06-06 16:25:00,
+MSG00142,PLAT900130,Customer,How long does delivery usually take?,Shipping Query,2026-07-02 15:15:00,
+MSG00143,PLAT900143,Customer,What is the price of this product?,Product Information,2026-08-06 06:08:00,P046
+MSG00144,PLAT900019,Customer,Can you check my order status?,Order Tracking,2026-09-11 02:01:00,
+MSG00145,PLAT900028,Customer,Do you deliver across India?,Shipping Query,2026-07-26 22:29:00,
+MSG00146,PLAT900150,Customer,Please connect me with customer support.,Human Support,2026-09-16 00:29:00,
+MSG00147,PLAT900030,Customer,How many days does shipping take?,Shipping Query,2026-09-19 05:50:00,
+MSG00148,PLAT900172,Customer,When will my order arrive?,Order Tracking,2026-09-23 20:00:00,
+MSG00149,PLAT900197,Customer,Can you tell me more about this item?,Product Information,2026-08-30 16:02:00,P038
+MSG00150,PLAT900166,Customer,Do you deliver across India?,Shipping Query,2026-07-25 19:34:00,
+MSG00151,PLAT900106,Customer,I want a refund.,Human Support,2026-02-23 19:56:00,
+MSG00152,PLAT900031,Customer,Where is my order?,Order Tracking,2026-08-29 21:23:00,
+MSG00153,PLAT900102,Customer,What is the price of this product?,Product Information,2026-08-07 11:29:00,P080
+MSG00154,PLAT900104,Customer,What colours are available?,Product Information,2026-07-21 05:41:00,P072
+MSG00155,PLAT900089,Customer,What material is this?,Product Information,2026-08-10 10:15:00,P070
+MSG00156,PLAT900133,Customer,Can you tell me more about this item?,Product Information,2026-08-30 18:55:00,P090
+MSG00157,PLAT900088,Customer,Do you have this in black?,Inventory Check,2026-06-29 11:57:00,P035
+MSG00158,PLAT900036,Customer,Please connect me with customer support.,Human Support,2026-09-11 08:03:00,
+MSG00159,PLAT900006,Customer,What colours are available?,Product Information,2026-05-28 14:31:00,P065
+MSG00160,PLAT900198,Customer,I want to return my order.,Human Support,2026-06-15 22:34:00,
+MSG00161,PLAT900162,Customer,My product arrived damaged.,Human Support,2026-08-19 19:23:00,
+MSG00162,PLAT900168,Customer,What material is this?,Product Information,2026-09-27 14:05:00,P011
+MSG00163,PLAT900027,Customer,How many days does shipping take?,Shipping Query,2026-07-11 02:06:00,
+MSG00164,PLAT900124,Customer,Is size L available?,Inventory Check,2026-08-21 22:09:00,P064
+MSG00165,PLAT900108,Customer,Do you have this in black?,Inventory Check,2026-01-26 09:26:00,P088
+MSG00166,PLAT900038,Customer,I want a refund.,Human Support,2026-09-08 11:26:00,
+MSG00167,PLAT900066,Customer,How long does delivery usually take?,Shipping Query,2026-04-17 06:04:00,
+MSG00168,PLAT900074,Customer,What material is this?,Product Information,2026-07-07 13:37:00,P044
+MSG00169,PLAT900082,Customer,When will my order arrive?,Order Tracking,2026-08-11 21:44:00,
+MSG00170,PLAT900127,Customer,I want to cancel my order.,Human Support,2026-08-01 14:19:00,
+MSG00171,PLAT900042,Customer,I want a refund.,Human Support,2026-07-28 05:50:00,
+MSG00172,PLAT900197,Customer,Can you check my order status?,Order Tracking,2026-09-18 11:18:00,
+MSG00173,PLAT900012,Customer,What material is this?,Product Information,2026-06-11 09:29:00,P022
+MSG00174,PLAT900088,Customer,I want a refund.,Human Support,2026-06-11 05:11:00,
+MSG00175,PLAT900026,Customer,Do you have this in black?,Inventory Check,2026-07-21 03:02:00,P041
+MSG00176,PLAT900014,Customer,I want a refund.,Human Support,2026-05-16 08:23:00,
+MSG00177,PLAT900003,Customer,Do you have this in black?,Inventory Check,2026-09-02 22:02:00,P086
+MSG00178,PLAT900067,Customer,Has my order been shipped?,Order Tracking,2026-03-21 11:28:00,
+MSG00179,PLAT900189,Customer,I want a refund.,Human Support,2026-06-09 09:07:00,
+MSG00180,PLAT900164,Customer,Can you tell me more about this item?,Product Information,2026-09-13 04:29:00,P041
+MSG00181,PLAT900071,Customer,Is this available in M?,Inventory Check,2026-09-23 17:32:00,P043
+MSG00182,PLAT900179,Customer,When will my order arrive?,Order Tracking,2026-07-27 18:42:00,
+MSG00183,PLAT900075,Customer,Is this currently in stock?,Inventory Check,2026-07-13 22:07:00,P094
+MSG00184,PLAT900104,Customer,How long does delivery usually take?,Shipping Query,2026-03-27 21:35:00,
+MSG00185,PLAT900044,Customer,What colours are available?,Product Information,2026-02-15 12:39:00,P029
+MSG00186,PLAT900124,Customer,Do you deliver across India?,Shipping Query,2026-08-19 10:03:00,
+MSG00187,PLAT900200,Customer,Please connect me with customer support.,Human Support,2026-09-04 18:33:00,
+MSG00188,PLAT900160,Customer,Is size L available?,Inventory Check,2026-08-22 00:05:00,P069
+MSG00189,PLAT900162,Customer,How long does delivery usually take?,Shipping Query,2026-08-27 12:12:00,
+MSG00190,PLAT900018,Customer,Do you deliver across India?,Shipping Query,2026-06-24 19:32:00,
+MSG00191,PLAT900116,Customer,What colours are available?,Product Information,2026-06-03 04:45:00,P055
+MSG00192,PLAT900168,Customer,When will my order arrive?,Order Tracking,2026-07-22 00:18:00,
+MSG00193,PLAT900160,Customer,Has my order been shipped?,Order Tracking,2026-08-29 14:55:00,
+MSG00194,PLAT900121,Customer,I want to return my order.,Human Support,2026-03-22 23:56:00,
+MSG00195,PLAT900013,Customer,What is the usual delivery time?,Shipping Query,2026-09-09 09:10:00,
+MSG00196,PLAT900162,Customer,What is the usual delivery time?,Shipping Query,2026-07-10 18:38:00,
+MSG00197,PLAT900187,Customer,What material is this?,Product Information,2026-07-14 09:30:00,P068
+MSG00198,PLAT900061,Customer,Where is my order?,Order Tracking,2026-09-19 12:05:00,
+MSG00199,PLAT900051,Customer,Can you tell me more about this item?,Product Information,2026-08-27 08:26:00,P023
+MSG00200,PLAT900092,Customer,I received the wrong item.,Human Support,2026-08-16 18:48:00,
+MSG00201,PLAT900020,Customer,Do you have this in black?,Inventory Check,2026-06-20 12:18:00,P071
+MSG00202,PLAT900042,Customer,How long does delivery usually take?,Shipping Query,2026-07-27 18:19:00,
+MSG00203,PLAT900145,Customer,What is the usual delivery time?,Shipping Query,2026-03-31 00:50:00,
+MSG00204,PLAT900188,Customer,What material is this?,Product Information,2026-07-18 09:40:00,P082
+MSG00205,PLAT900085,Customer,How long does delivery usually take?,Shipping Query,2026-09-09 21:57:00,
+MSG00206,PLAT900044,Customer,When will my order arrive?,Order Tracking,2026-03-26 15:58:00,
+MSG00207,PLAT900173,Customer,Is this available in M?,Inventory Check,2026-05-21 08:31:00,P009
+MSG00208,PLAT900090,Customer,Please connect me with customer support.,Human Support,2026-05-22 18:30:00,
+MSG00209,PLAT900124,Customer,I received the wrong item.,Human Support,2026-08-30 20:43:00,
+MSG00210,PLAT900012,Customer,How long does delivery usually take?,Shipping Query,2026-06-16 16:46:00,
+MSG00211,PLAT900044,Customer,I want to return my order.,Human Support,2026-09-13 08:10:00,
+MSG00212,PLAT900054,Customer,I want to return my order.,Human Support,2026-08-31 10:29:00,
+MSG00213,PLAT900103,Customer,Is size L available?,Inventory Check,2026-03-31 01:17:00,P047
+MSG00214,PLAT900097,Customer,Do you deliver across India?,Shipping Query,2026-04-27 09:18:00,
+MSG00215,PLAT900100,Customer,Please connect me with customer support.,Human Support,2026-04-29 16:12:00,
+MSG00216,PLAT900112,Customer,Is this available in M?,Inventory Check,2026-08-05 05:34:00,P042
+MSG00217,PLAT900083,Customer,Has my order been shipped?,Order Tracking,2026-08-23 21:44:00,
+MSG00218,PLAT900149,Customer,Where is my order?,Order Tracking,2026-08-15 18:22:00,
+MSG00219,PLAT900180,Customer,Is this available in M?,Inventory Check,2026-06-24 16:18:00,P048
+MSG00220,PLAT900001,Customer,What is the usual delivery time?,Shipping Query,2026-08-21 05:06:00,
+MSG00221,PLAT900047,Customer,Do you have this in black?,Inventory Check,2026-09-21 07:53:00,P025
+MSG00222,PLAT900159,Customer,I want to cancel my order.,Human Support,2026-08-25 17:45:00,
+MSG00223,PLAT900182,Customer,Please connect me with customer support.,Human Support,2026-09-28 03:26:00,
+MSG00224,PLAT900167,Customer,How long does delivery usually take?,Shipping Query,2026-04-28 04:59:00,
+MSG00225,PLAT900099,Customer,Can you tell me more about this item?,Product Information,2026-05-12 09:44:00,P047
+MSG00226,PLAT900184,Customer,Is this currently in stock?,Inventory Check,2026-09-01 16:48:00,P044
+MSG00227,PLAT900113,Customer,Is size L available?,Inventory Check,2026-01-25 23:52:00,P016
+MSG00228,PLAT900128,Customer,Do you have this in black?,Inventory Check,2026-09-16 04:44:00,P030
+MSG00229,PLAT900067,Customer,Can you check my order status?,Order Tracking,2026-04-06 04:05:00,
+MSG00230,PLAT900013,Customer,How long does delivery usually take?,Shipping Query,2026-07-24 00:49:00,
+MSG00231,PLAT900131,Customer,What is the usual delivery time?,Shipping Query,2026-07-15 06:06:00,
+MSG00232,PLAT900173,Customer,What is the price of this product?,Product Information,2026-08-19 03:58:00,P033
+MSG00233,PLAT900130,Customer,What is the price of this product?,Product Information,2026-05-25 21:00:00,P097
+MSG00234,PLAT900022,Customer,What is the price of this product?,Product Information,2026-09-13 19:13:00,P076
+MSG00235,PLAT900115,Customer,Do you have this in black?,Inventory Check,2026-08-11 00:05:00,P019
+MSG00236,PLAT900136,Customer,Has my order been shipped?,Order Tracking,2026-04-24 05:54:00,
+MSG00237,PLAT900062,Customer,Please connect me with customer support.,Human Support,2026-05-18 16:36:00,
+MSG00238,PLAT900029,Customer,What is the price of this product?,Product Information,2026-09-24 00:33:00,P028
+MSG00239,PLAT900118,Customer,Is size L available?,Inventory Check,2026-07-12 17:00:00,P093
+MSG00240,PLAT900084,Customer,What material is this?,Product Information,2026-06-27 22:30:00,P047
+MSG00241,PLAT900098,Customer,I want a refund.,Human Support,2026-06-16 21:06:00,
+MSG00242,PLAT900078,Customer,Is size L available?,Inventory Check,2026-07-31 13:13:00,P066
+MSG00243,PLAT900093,Customer,Is this currently in stock?,Inventory Check,2026-04-02 10:07:00,P060
+MSG00244,PLAT900165,Customer,What material is this?,Product Information,2026-07-31 11:45:00,P037
+MSG00245,PLAT900022,Customer,Please connect me with customer support.,Human Support,2026-01-31 02:20:00,
+MSG00246,PLAT900037,Customer,How long does delivery usually take?,Shipping Query,2026-06-15 09:29:00,
+MSG00247,PLAT900133,Customer,Please connect me with customer support.,Human Support,2026-05-13 21:53:00,
+MSG00248,PLAT900166,Customer,How many days does shipping take?,Shipping Query,2026-06-18 13:18:00,
+MSG00249,PLAT900013,Customer,How many days does shipping take?,Shipping Query,2026-07-23 15:43:00,
+MSG00250,PLAT900061,Customer,Can you check my order status?,Order Tracking,2026-08-13 21:31:00,
+MSG00251,PLAT900130,Customer,Can you tell me more about this item?,Product Information,2026-06-29 16:42:00,P087
+MSG00252,PLAT900084,Customer,What is the price of this product?,Product Information,2026-03-26 12:25:00,P089
+MSG00253,PLAT900173,Customer,I want to return my order.,Human Support,2026-06-03 02:23:00,
+MSG00254,PLAT900147,Customer,Is size L available?,Inventory Check,2026-04-15 19:54:00,P052
+MSG00255,PLAT900075,Customer,What material is this?,Product Information,2026-09-15 13:46:00,P064
+MSG00256,PLAT900151,Customer,Has my order been shipped?,Order Tracking,2026-09-24 12:22:00,
+MSG00257,PLAT900180,Customer,What is the usual delivery time?,Shipping Query,2026-08-08 16:17:00,
+MSG00258,PLAT900161,Customer,Is this currently in stock?,Inventory Check,2026-04-27 03:16:00,P063
+MSG00259,PLAT900084,Customer,How many days does shipping take?,Shipping Query,2026-07-28 04:01:00,
+MSG00260,PLAT900137,Customer,What is the price of this product?,Product Information,2026-02-15 15:43:00,P004
+MSG00261,PLAT900006,Customer,Is this currently in stock?,Inventory Check,2026-08-02 21:20:00,P020
+MSG00262,PLAT900024,Customer,Where is my order?,Order Tracking,2026-09-17 02:42:00,
+MSG00263,PLAT900162,Customer,I received the wrong item.,Human Support,2026-08-21 06:18:00,
+MSG00264,PLAT900135,Customer,What is the usual delivery time?,Shipping Query,2026-09-12 08:34:00,
+MSG00265,PLAT900022,Customer,Where is my order?,Order Tracking,2026-09-21 01:27:00,
+MSG00266,PLAT900051,Customer,Can you tell me more about this item?,Product Information,2026-07-10 10:54:00,P049
+MSG00267,PLAT900138,Customer,What is the usual delivery time?,Shipping Query,2026-07-21 01:11:00,
+MSG00268,PLAT900038,Customer,Please connect me with customer support.,Human Support,2026-08-17 22:10:00,
+MSG00269,PLAT900113,Customer,What is the usual delivery time?,Shipping Query,2026-03-20 09:45:00,
+MSG00270,PLAT900110,Customer,What is the usual delivery time?,Shipping Query,2026-09-07 03:36:00,
+MSG00271,PLAT900062,Customer,What is the usual delivery time?,Shipping Query,2026-09-15 17:54:00,
+MSG00272,PLAT900023,Customer,Is this available in M?,Inventory Check,2026-07-17 08:31:00,P076
+MSG00273,PLAT900137,Customer,Do you deliver across India?,Shipping Query,2026-06-06 10:03:00,
+MSG00274,PLAT900089,Customer,What is the price of this product?,Product Information,2026-08-09 11:22:00,P095
+MSG00275,PLAT900037,Customer,I want to return my order.,Human Support,2026-09-20 20:21:00,
+MSG00276,PLAT900088,Customer,How long does delivery usually take?,Shipping Query,2026-08-23 11:22:00,
+MSG00277,PLAT900173,Customer,Do you deliver across India?,Shipping Query,2026-05-05 21:15:00,
+MSG00278,PLAT900081,Customer,Do you have this in black?,Inventory Check,2026-08-06 18:05:00,P089
+MSG00279,PLAT900130,Customer,What colours are available?,Product Information,2026-04-07 10:10:00,P003
+MSG00280,PLAT900006,Customer,My product arrived damaged.,Human Support,2026-03-10 14:42:00,
+MSG00281,PLAT900072,Customer,What is the usual delivery time?,Shipping Query,2026-09-05 00:44:00,
+MSG00282,PLAT900149,Customer,How long does delivery usually take?,Shipping Query,2026-07-18 12:36:00,
+MSG00283,PLAT900116,Customer,Do you deliver across India?,Shipping Query,2026-07-18 03:51:00,
+MSG00284,PLAT900148,Customer,How long does delivery usually take?,Shipping Query,2026-09-24 21:13:00,
+MSG00285,PLAT900173,Customer,When will my order arrive?,Order Tracking,2026-08-27 21:21:00,
+MSG00286,PLAT900174,Customer,Is size L available?,Inventory Check,2026-07-25 13:12:00,P064
+MSG00287,PLAT900026,Customer,What material is this?,Product Information,2026-07-27 08:03:00,P039
+MSG00288,PLAT900016,Customer,I received the wrong item.,Human Support,2026-09-30 07:39:00,
+MSG00289,PLAT900049,Customer,What is the price of this product?,Product Information,2026-09-07 10:17:00,P009
+MSG00290,PLAT900106,Customer,I want to cancel my order.,Human Support,2026-09-13 13:13:00,
+MSG00291,PLAT900122,Customer,Where is my order?,Order Tracking,2026-08-09 09:32:00,
+MSG00292,PLAT900074,Customer,When will my order arrive?,Order Tracking,2026-06-26 06:26:00,
+MSG00293,PLAT900048,Customer,Do you deliver across India?,Shipping Query,2026-09-17 16:29:00,
+MSG00294,PLAT900113,Customer,I want a refund.,Human Support,2026-01-20 20:45:00,
+MSG00295,PLAT900180,Customer,I want a refund.,Human Support,2026-08-19 15:13:00,
+MSG00296,PLAT900021,Customer,Do you deliver across India?,Shipping Query,2026-08-22 18:46:00,
+MSG00297,PLAT900194,Customer,What material is this?,Product Information,2026-05-23 14:09:00,P031
+MSG00298,PLAT900094,Customer,Is size L available?,Inventory Check,2026-09-19 13:20:00,P009
+MSG00299,PLAT900180,Customer,Is this currently in stock?,Inventory Check,2026-07-11 09:41:00,P021
+MSG00300,PLAT900163,Customer,Can you check my order status?,Order Tracking,2026-09-23 07:07:00,
+MSG00301,PLAT900165,Customer,Do you have this in black?,Inventory Check,2026-06-01 07:51:00,P040
+MSG00302,PLAT900080,Customer,What is the usual delivery time?,Shipping Query,2026-08-03 13:27:00,
+MSG00303,PLAT900044,Customer,What material is this?,Product Information,2026-03-21 08:08:00,P004
+MSG00304,PLAT900151,Customer,Has my order been shipped?,Order Tracking,2026-09-25 17:11:00,
+MSG00305,PLAT900100,Customer,Can you tell me more about this item?,Product Information,2026-04-15 01:55:00,P011
+MSG00306,PLAT900052,Customer,Has my order been shipped?,Order Tracking,2026-05-13 13:57:00,
+MSG00307,PLAT900186,Customer,Where is my order?,Order Tracking,2026-08-20 23:53:00,
+MSG00308,PLAT900171,Customer,Do you have this in black?,Inventory Check,2026-02-27 18:47:00,P065
+MSG00309,PLAT900163,Customer,What colours are available?,Product Information,2026-09-29 02:15:00,P077
+MSG00310,PLAT900104,Customer,What colours are available?,Product Information,2026-07-02 18:47:00,P050
+MSG00311,PLAT900107,Customer,Is this currently in stock?,Inventory Check,2026-07-03 04:06:00,P023
+MSG00312,PLAT900013,Customer,Is size L available?,Inventory Check,2026-09-09 13:16:00,P076
+MSG00313,PLAT900091,Customer,Can you tell me more about this item?,Product Information,2026-09-08 11:44:00,P015
+MSG00314,PLAT900029,Customer,When will my order arrive?,Order Tracking,2026-08-28 21:15:00,
+MSG00315,PLAT900148,Customer,Can you check my order status?,Order Tracking,2026-07-02 15:45:00,
+MSG00316,PLAT900105,Customer,Has my order been shipped?,Order Tracking,2026-01-26 20:57:00,
+MSG00317,PLAT900007,Customer,I want to return my order.,Human Support,2026-02-03 22:58:00,
+MSG00318,PLAT900146,Customer,Is size L available?,Inventory Check,2026-08-23 12:19:00,P082
+MSG00319,PLAT900179,Customer,Where is my order?,Order Tracking,2026-08-27 07:54:00,
+MSG00320,PLAT900024,Customer,What is the usual delivery time?,Shipping Query,2026-06-13 12:59:00,
+MSG00321,PLAT900136,Customer,Has my order been shipped?,Order Tracking,2026-02-16 07:19:00,
+MSG00322,PLAT900048,Customer,Do you have this in black?,Inventory Check,2026-09-06 20:20:00,P099
+MSG00323,PLAT900061,Customer,How long does delivery usually take?,Shipping Query,2026-08-30 02:52:00,
+MSG00324,PLAT900036,Customer,What is the usual delivery time?,Shipping Query,2026-09-10 10:45:00,
+MSG00325,PLAT900110,Customer,How long does delivery usually take?,Shipping Query,2026-09-15 05:44:00,
+MSG00326,PLAT900055,Customer,Where is my order?,Order Tracking,2026-08-26 13:38:00,
+MSG00327,PLAT900195,Customer,Please connect me with customer support.,Human Support,2026-07-05 14:44:00,
+MSG00328,PLAT900060,Customer,What is the price of this product?,Product Information,2026-04-09 20:28:00,P083
+MSG00329,PLAT900042,Customer,Is this available in M?,Inventory Check,2026-08-21 06:40:00,P040
+MSG00330,PLAT900048,Customer,Where is my order?,Order Tracking,2026-08-16 05:15:00,
+MSG00331,PLAT900093,Customer,Please connect me with customer support.,Human Support,2026-09-17 20:48:00,
+MSG00332,PLAT900148,Customer,Is this currently in stock?,Inventory Check,2026-06-21 14:30:00,P095
+MSG00333,PLAT900044,Customer,Is size L available?,Inventory Check,2026-03-25 21:37:00,P042
+MSG00334,PLAT900054,Customer,Can you check my order status?,Order Tracking,2026-08-27 13:23:00,
+MSG00335,PLAT900052,Customer,Is this currently in stock?,Inventory Check,2026-08-01 18:14:00,P003
+MSG00336,PLAT900072,Customer,What material is this?,Product Information,2026-08-24 14:12:00,P034
+MSG00337,PLAT900099,Customer,Is this available in M?,Inventory Check,2026-05-25 19:27:00,P077
+MSG00338,PLAT900114,Customer,Can you check my order status?,Order Tracking,2026-05-10 11:10:00,
+MSG00339,PLAT900091,Customer,I want to return my order.,Human Support,2026-04-28 22:33:00,
+MSG00340,PLAT900081,Customer,What is the usual delivery time?,Shipping Query,2026-09-22 03:14:00,
+MSG00341,PLAT900090,Customer,Do you have this in black?,Inventory Check,2026-09-27 08:18:00,P096
+MSG00342,PLAT900104,Customer,What is the usual delivery time?,Shipping Query,2026-03-22 13:54:00,
+MSG00343,PLAT900011,Customer,Do you have this in black?,Inventory Check,2026-08-03 23:43:00,P025
+MSG00344,PLAT900180,Customer,How many days does shipping take?,Shipping Query,2026-07-29 04:01:00,
+MSG00345,PLAT900190,Customer,Has my order been shipped?,Order Tracking,2026-04-28 19:28:00,
+MSG00346,PLAT900155,Customer,Is size L available?,Inventory Check,2026-09-18 21:41:00,P059
+MSG00347,PLAT900118,Customer,What is the price of this product?,Product Information,2026-08-20 04:55:00,P042
+MSG00348,PLAT900141,Customer,How many days does shipping take?,Shipping Query,2026-07-18 22:27:00,
+MSG00349,PLAT900186,Customer,My product arrived damaged.,Human Support,2026-05-29 03:35:00,
+MSG00350,PLAT900160,Customer,What is the price of this product?,Product Information,2026-08-31 07:30:00,P046
+MSG00351,PLAT900092,Customer,Please connect me with customer support.,Human Support,2026-09-09 19:45:00,
+MSG00352,PLAT900196,Customer,What is the price of this product?,Product Information,2026-07-19 16:39:00,P049
+MSG00353,PLAT900176,Customer,When will my order arrive?,Order Tracking,2026-09-08 11:08:00,
+MSG00354,PLAT900144,Customer,I want to return my order.,Human Support,2026-07-06 08:10:00,
+MSG00355,PLAT900131,Customer,I received the wrong item.,Human Support,2026-08-22 14:08:00,
+MSG00356,PLAT900003,Customer,What colours are available?,Product Information,2026-09-21 16:27:00,P019
+MSG00357,PLAT900025,Customer,Where is my order?,Order Tracking,2026-06-24 01:08:00,
+MSG00358,PLAT900140,Customer,Do you deliver across India?,Shipping Query,2026-08-15 13:18:00,
+MSG00359,PLAT900002,Customer,Has my order been shipped?,Order Tracking,2026-07-09 10:27:00,
+MSG00360,PLAT900090,Customer,Is size L available?,Inventory Check,2026-08-26 15:48:00,P020
+MSG00361,PLAT900121,Customer,Please connect me with customer support.,Human Support,2026-07-07 14:03:00,
+MSG00362,PLAT900149,Customer,Do you have this in black?,Inventory Check,2026-06-14 07:11:00,P005
+MSG00363,PLAT900116,Customer,Do you deliver across India?,Shipping Query,2026-04-04 22:29:00,
+MSG00364,PLAT900150,Customer,How long does delivery usually take?,Shipping Query,2026-09-10 01:28:00,
+MSG00365,PLAT900150,Customer,When will my order arrive?,Order Tracking,2026-09-08 15:07:00,
+MSG00366,PLAT900200,Customer,Is this available in M?,Inventory Check,2026-09-14 02:13:00,P037
+MSG00367,PLAT900180,Customer,Do you have this in black?,Inventory Check,2026-09-10 16:52:00,P035
+MSG00368,PLAT900082,Customer,Please connect me with customer support.,Human Support,2026-08-10 06:37:00,
+MSG00369,PLAT900108,Customer,What material is this?,Product Information,2026-08-16 02:15:00,P099
+MSG00370,PLAT900162,Customer,How long does delivery usually take?,Shipping Query,2026-08-04 00:18:00,
+MSG00371,PLAT900052,Customer,Can you tell me more about this item?,Product Information,2026-07-31 18:59:00,P014
+MSG00372,PLAT900085,Customer,Can you check my order status?,Order Tracking,2026-06-21 02:29:00,
+MSG00373,PLAT900103,Customer,What is the usual delivery time?,Shipping Query,2026-07-28 08:38:00,
+MSG00374,PLAT900053,Customer,What colours are available?,Product Information,2026-05-20 20:39:00,P058
+MSG00375,PLAT900003,Customer,Can you check my order status?,Order Tracking,2026-07-20 01:51:00,
+MSG00376,PLAT900085,Customer,Has my order been shipped?,Order Tracking,2026-09-28 01:47:00,
+MSG00377,PLAT900126,Customer,Can you tell me more about this item?,Product Information,2026-08-07 12:16:00,P023
+MSG00378,PLAT900124,Customer,Is this currently in stock?,Inventory Check,2026-08-19 00:54:00,P027
+MSG00379,PLAT900023,Customer,Is this currently in stock?,Inventory Check,2026-07-20 09:41:00,P097
+MSG00380,PLAT900171,Customer,Is this available in M?,Inventory Check,2026-06-02 15:51:00,P056
+MSG00381,PLAT900048,Customer,Can you check my order status?,Order Tracking,2026-08-31 21:06:00,
+MSG00382,PLAT900002,Customer,Can you check my order status?,Order Tracking,2026-07-02 14:56:00,
+MSG00383,PLAT900005,Customer,What is the usual delivery time?,Shipping Query,2026-05-25 18:38:00,
+MSG00384,PLAT900187,Customer,How long does delivery usually take?,Shipping Query,2026-09-22 13:51:00,
+MSG00385,PLAT900165,Customer,Can you check my order status?,Order Tracking,2026-07-23 20:27:00,
+MSG00386,PLAT900012,Customer,What is the price of this product?,Product Information,2026-07-22 10:29:00,P087
+MSG00387,PLAT900025,Customer,Do you have this in black?,Inventory Check,2026-08-09 16:40:00,P083
+MSG00388,PLAT900141,Customer,I want to return my order.,Human Support,2026-05-31 14:27:00,
+MSG00389,PLAT900004,Customer,Can you tell me more about this item?,Product Information,2026-07-09 04:08:00,P088
+MSG00390,PLAT900130,Customer,Can you check my order status?,Order Tracking,2026-07-20 13:18:00,
+MSG00391,PLAT900193,Customer,I want to return my order.,Human Support,2026-09-15 02:58:00,
+MSG00392,PLAT900162,Customer,What is the price of this product?,Product Information,2026-08-27 13:26:00,P013
+MSG00393,PLAT900049,Customer,Do you deliver across India?,Shipping Query,2026-08-08 08:37:00,
+MSG00394,PLAT900185,Customer,What is the price of this product?,Product Information,2026-05-23 23:42:00,P060
+MSG00395,PLAT900112,Customer,Do you have this in black?,Inventory Check,2026-06-13 01:05:00,P054
+MSG00396,PLAT900128,Customer,Has my order been shipped?,Order Tracking,2026-09-03 23:29:00,
+MSG00397,PLAT900069,Customer,Do you deliver across India?,Shipping Query,2026-05-22 05:13:00,
+MSG00398,PLAT900187,Customer,Is this available in M?,Inventory Check,2026-09-21 19:16:00,P087
+MSG00399,PLAT900185,Customer,Can you tell me more about this item?,Product Information,2026-09-07 00:00:00,P051
+MSG00400,PLAT900127,Customer,What is the price of this product?,Product Information,2026-06-27 20:30:00,P059
+MSG00401,PLAT900132,Customer,What is the usual delivery time?,Shipping Query,2026-05-27 19:52:00,
+MSG00402,PLAT900070,Customer,My product arrived damaged.,Human Support,2026-09-28 21:44:00,
+MSG00403,PLAT900021,Customer,Do you deliver across India?,Shipping Query,2026-02-25 04:08:00,
+MSG00404,PLAT900108,Customer,What material is this?,Product Information,2026-03-13 00:44:00,P025
+MSG00405,PLAT900022,Customer,What material is this?,Product Information,2026-05-24 20:09:00,P084
+MSG00406,PLAT900070,Customer,Is this currently in stock?,Inventory Check,2026-09-20 17:12:00,P012
+MSG00407,PLAT900050,Customer,When will my order arrive?,Order Tracking,2026-08-03 15:27:00,
+MSG00408,PLAT900108,Customer,What is the price of this product?,Product Information,2026-04-10 04:47:00,P090
+MSG00409,PLAT900099,Customer,What is the usual delivery time?,Shipping Query,2026-06-12 00:55:00,
+MSG00410,PLAT900004,Customer,How many days does shipping take?,Shipping Query,2026-06-26 09:36:00,
+MSG00411,PLAT900014,Customer,How long does delivery usually take?,Shipping Query,2026-04-19 00:06:00,
+MSG00412,PLAT900028,Customer,What is the usual delivery time?,Shipping Query,2026-09-07 23:37:00,
+MSG00413,PLAT900110,Customer,Please connect me with customer support.,Human Support,2026-08-11 09:02:00,
+MSG00414,PLAT900109,Customer,What is the usual delivery time?,Shipping Query,2026-09-06 16:37:00,
+MSG00415,PLAT900109,Customer,Please connect me with customer support.,Human Support,2026-09-27 15:14:00,
+MSG00416,PLAT900106,Customer,What is the price of this product?,Product Information,2026-08-17 18:20:00,P071
+MSG00417,PLAT900129,Customer,What colours are available?,Product Information,2026-09-22 15:07:00,P064
+MSG00418,PLAT900074,Customer,Please connect me with customer support.,Human Support,2026-07-13 14:44:00,
+MSG00419,PLAT900138,Customer,How long does delivery usually take?,Shipping Query,2026-08-06 09:46:00,
+MSG00420,PLAT900036,Customer,Is this currently in stock?,Inventory Check,2026-09-06 14:14:00,P065
+MSG00421,PLAT900186,Customer,Is size L available?,Inventory Check,2026-09-07 04:56:00,P038
+MSG00422,PLAT900039,Customer,What is the usual delivery time?,Shipping Query,2026-08-28 20:47:00,
+MSG00423,PLAT900068,Customer,When will my order arrive?,Order Tracking,2026-08-22 19:13:00,
+MSG00424,PLAT900027,Customer,Where is my order?,Order Tracking,2026-08-29 15:08:00,
+MSG00425,PLAT900108,Customer,Do you have this in black?,Inventory Check,2026-04-05 19:31:00,P013
+MSG00426,PLAT900141,Customer,What is the usual delivery time?,Shipping Query,2026-06-07 07:13:00,
+MSG00427,PLAT900105,Customer,I want to return my order.,Human Support,2026-01-25 11:56:00,
+MSG00428,PLAT900005,Customer,Has my order been shipped?,Order Tracking,2026-03-30 05:52:00,
+MSG00429,PLAT900098,Customer,I want to return my order.,Human Support,2026-09-18 02:21:00,
+MSG00430,PLAT900029,Customer,How long does delivery usually take?,Shipping Query,2026-06-26 03:35:00,
+MSG00431,PLAT900122,Customer,Is this currently in stock?,Inventory Check,2026-05-01 10:50:00,P046
+MSG00432,PLAT900074,Customer,What colours are available?,Product Information,2026-04-04 22:55:00,P066
+MSG00433,PLAT900027,Customer,Please connect me with customer support.,Human Support,2026-06-18 22:03:00,
+MSG00434,PLAT900119,Customer,What is the usual delivery time?,Shipping Query,2026-04-19 03:50:00,
+MSG00435,PLAT900161,Customer,I want to cancel my order.,Human Support,2026-04-26 17:02:00,
+MSG00436,PLAT900186,Customer,I want to return my order.,Human Support,2026-06-22 20:07:00,
+MSG00437,PLAT900182,Customer,Is size L available?,Inventory Check,2026-04-28 23:18:00,P091
+MSG00438,PLAT900036,Customer,What is the usual delivery time?,Shipping Query,2026-09-30 03:09:00,
+MSG00439,PLAT900160,Customer,Has my order been shipped?,Order Tracking,2026-08-18 03:54:00,
+MSG00440,PLAT900104,Customer,Is this currently in stock?,Inventory Check,2026-08-15 00:15:00,P061
+MSG00441,PLAT900029,Customer,Has my order been shipped?,Order Tracking,2026-09-05 05:05:00,
+MSG00442,PLAT900189,Customer,Has my order been shipped?,Order Tracking,2026-07-26 13:23:00,
+MSG00443,PLAT900054,Customer,Do you have this in black?,Inventory Check,2026-09-24 13:50:00,P030
+MSG00444,PLAT900006,Customer,Is this currently in stock?,Inventory Check,2026-06-14 13:57:00,P059
+MSG00445,PLAT900142,Customer,Please connect me with customer support.,Human Support,2026-09-22 00:28:00,
+MSG00446,PLAT900122,Customer,Is this available in M?,Inventory Check,2026-08-26 16:04:00,P011
+MSG00447,PLAT900183,Customer,Has my order been shipped?,Order Tracking,2026-08-01 05:27:00,
+MSG00448,PLAT900153,Customer,Can you tell me more about this item?,Product Information,2026-07-29 21:59:00,P083
+MSG00449,PLAT900140,Customer,Is this available in M?,Inventory Check,2026-09-18 22:51:00,P085
+MSG00450,PLAT900170,Customer,My product arrived damaged.,Human Support,2026-06-22 12:56:00,
+MSG00451,PLAT900190,Customer,My product arrived damaged.,Human Support,2026-08-30 23:20:00,
+MSG00452,PLAT900052,Customer,Where is my order?,Order Tracking,2026-07-07 16:39:00,
+MSG00453,PLAT900071,Customer,Is this currently in stock?,Inventory Check,2026-08-17 20:13:00,P070
+MSG00454,PLAT900189,Customer,I want to cancel my order.,Human Support,2026-07-09 14:44:00,
+MSG00455,PLAT900124,Customer,When will my order arrive?,Order Tracking,2026-08-26 09:05:00,
+MSG00456,PLAT900139,Customer,What colours are available?,Product Information,2026-05-21 23:46:00,P095
+MSG00457,PLAT900083,Customer,Is size L available?,Inventory Check,2026-08-16 02:32:00,P071
+MSG00458,PLAT900165,Customer,Has my order been shipped?,Order Tracking,2026-09-02 20:10:00,
+MSG00459,PLAT900108,Customer,What is the price of this product?,Product Information,2026-05-27 07:53:00,P100
+MSG00460,PLAT900139,Customer,When will my order arrive?,Order Tracking,2026-06-20 03:46:00,
+MSG00461,PLAT900174,Customer,What colours are available?,Product Information,2026-07-12 20:32:00,P046
+MSG00462,PLAT900055,Customer,What is the price of this product?,Product Information,2026-09-21 20:07:00,P058
+MSG00463,PLAT900097,Customer,Where is my order?,Order Tracking,2026-08-09 10:15:00,
+MSG00464,PLAT900135,Customer,I want to cancel my order.,Human Support,2026-09-19 19:14:00,
+MSG00465,PLAT900043,Customer,Has my order been shipped?,Order Tracking,2026-08-18 21:50:00,
+MSG00466,PLAT900138,Customer,Please connect me with customer support.,Human Support,2026-08-03 22:24:00,
+MSG00467,PLAT900145,Customer,Please connect me with customer support.,Human Support,2026-04-06 03:20:00,
+MSG00468,PLAT900195,Customer,I want to cancel my order.,Human Support,2026-06-01 11:29:00,
+MSG00469,PLAT900100,Customer,What material is this?,Product Information,2026-07-27 13:05:00,P012
+MSG00470,PLAT900081,Customer,Can you tell me more about this item?,Product Information,2026-06-21 15:13:00,P058
+MSG00471,PLAT900158,Customer,What colours are available?,Product Information,2026-08-19 16:25:00,P076
+MSG00472,PLAT900031,Customer,I want to cancel my order.,Human Support,2026-08-14 08:37:00,
+MSG00473,PLAT900103,Customer,What is the usual delivery time?,Shipping Query,2026-06-10 22:59:00,
+MSG00474,PLAT900070,Customer,What is the usual delivery time?,Shipping Query,2026-07-22 04:32:00,
+MSG00475,PLAT900082,Customer,Is this currently in stock?,Inventory Check,2026-08-27 14:08:00,P091
+MSG00476,PLAT900103,Customer,I want to cancel my order.,Human Support,2026-03-20 22:13:00,
+MSG00477,PLAT900040,Customer,What is the usual delivery time?,Shipping Query,2026-08-20 23:10:00,
+MSG00478,PLAT900143,Customer,My product arrived damaged.,Human Support,2026-03-11 19:54:00,
+MSG00479,PLAT900067,Customer,How long does delivery usually take?,Shipping Query,2026-03-14 11:36:00,
+MSG00480,PLAT900115,Customer,Where is my order?,Order Tracking,2026-09-24 04:07:00,
+MSG00481,PLAT900042,Customer,Has my order been shipped?,Order Tracking,2026-08-14 09:18:00,
+MSG00482,PLAT900064,Customer,How long does delivery usually take?,Shipping Query,2026-07-25 04:50:00,
+MSG00483,PLAT900071,Customer,I received the wrong item.,Human Support,2026-06-27 09:56:00,
+MSG00484,PLAT900156,Customer,Can you check my order status?,Order Tracking,2026-04-13 23:31:00,
+MSG00485,PLAT900091,Customer,What is the price of this product?,Product Information,2026-09-12 11:04:00,P006
+MSG00486,PLAT900172,Customer,What is the usual delivery time?,Shipping Query,2026-09-06 09:36:00,
+MSG00487,PLAT900064,Customer,Do you deliver across India?,Shipping Query,2026-08-24 15:53:00,
+MSG00488,PLAT900058,Customer,I want a refund.,Human Support,2026-08-05 16:40:00,
+MSG00489,PLAT900004,Customer,What is the usual delivery time?,Shipping Query,2026-08-25 14:09:00,
+MSG00490,PLAT900152,Customer,Where is my order?,Order Tracking,2026-09-07 19:42:00,
+MSG00491,PLAT900069,Customer,I received the wrong item.,Human Support,2026-06-03 07:57:00,
+MSG00492,PLAT900193,Customer,Do you deliver across India?,Shipping Query,2026-09-12 01:42:00,
+MSG00493,PLAT900189,Customer,Do you deliver across India?,Shipping Query,2026-07-08 02:55:00,
+MSG00494,PLAT900059,Customer,Is this available in M?,Inventory Check,2026-08-15 20:50:00,P099
+MSG00495,PLAT900128,Customer,Where is my order?,Order Tracking,2026-09-10 17:05:00,
+MSG00496,PLAT900074,Customer,Is this available in M?,Inventory Check,2026-04-23 15:32:00,P003
+MSG00497,PLAT900024,Customer,What material is this?,Product Information,2026-06-14 08:50:00,P027
+MSG00498,PLAT900002,Customer,Is this currently in stock?,Inventory Check,2026-03-20 17:38:00,P042
+MSG00499,PLAT900132,Customer,How long does delivery usually take?,Shipping Query,2026-07-14 00:21:00,
+MSG00500,PLAT900033,Customer,How many days does shipping take?,Shipping Query,2026-07-28 00:55:00,
+MSG00501,PLAT900029,Customer,My product arrived damaged.,Human Support,2026-08-04 08:05:00,
+MSG00502,PLAT900033,Customer,What is the price of this product?,Product Information,2026-08-29 05:18:00,P019
+MSG00503,PLAT900035,Customer,Is size L available?,Inventory Check,2026-09-08 02:09:00,P040
+MSG00504,PLAT900193,Customer,How many days does shipping take?,Shipping Query,2026-05-12 19:20:00,
+MSG00505,PLAT900066,Customer,Is this available in M?,Inventory Check,2026-08-03 01:19:00,P050
+MSG00506,PLAT900029,Customer,What colours are available?,Product Information,2026-06-04 13:57:00,P042
+MSG00507,PLAT900159,Customer,When will my order arrive?,Order Tracking,2026-05-13 01:12:00,
+MSG00508,PLAT900076,Customer,Do you have this in black?,Inventory Check,2026-08-02 16:48:00,P065
+MSG00509,PLAT900152,Customer,How long does delivery usually take?,Shipping Query,2026-04-24 01:20:00,
+MSG00510,PLAT900175,Customer,What is the usual delivery time?,Shipping Query,2026-07-12 15:01:00,
+MSG00511,PLAT900125,Customer,How many days does shipping take?,Shipping Query,2026-03-18 08:35:00,
+MSG00512,PLAT900008,Customer,Please connect me with customer support.,Human Support,2026-07-15 07:48:00,
+MSG00513,PLAT900008,Customer,Please connect me with customer support.,Human Support,2026-07-19 09:36:00,
+MSG00514,PLAT900148,Customer,What is the usual delivery time?,Shipping Query,2026-04-22 20:32:00,
+MSG00515,PLAT900006,Customer,Do you have this in black?,Inventory Check,2026-06-04 17:10:00,P032
+MSG00516,PLAT900175,Customer,I received the wrong item.,Human Support,2026-09-13 14:02:00,
+MSG00517,PLAT900070,Customer,Can you tell me more about this item?,Product Information,2026-09-19 09:41:00,P022
+MSG00518,PLAT900077,Customer,What is the price of this product?,Product Information,2026-09-14 15:17:00,P077
+MSG00519,PLAT900098,Customer,When will my order arrive?,Order Tracking,2026-05-24 20:13:00,
+MSG00520,PLAT900099,Customer,I want to cancel my order.,Human Support,2026-04-25 01:10:00,
+MSG00521,PLAT900165,Customer,I want to cancel my order.,Human Support,2026-06-06 09:05:00,
+MSG00522,PLAT900075,Customer,How long does delivery usually take?,Shipping Query,2026-09-14 04:46:00,
+MSG00523,PLAT900171,Customer,My product arrived damaged.,Human Support,2026-08-10 06:39:00,
+MSG00524,PLAT900134,Customer,My product arrived damaged.,Human Support,2026-09-20 10:40:00,
+MSG00525,PLAT900192,Customer,When will my order arrive?,Order Tracking,2026-07-10 07:42:00,
+MSG00526,PLAT900174,Customer,Has my order been shipped?,Order Tracking,2026-07-05 14:38:00,
+MSG00527,PLAT900106,Customer,Where is my order?,Order Tracking,2026-03-22 20:59:00,
+MSG00528,PLAT900013,Customer,Can you tell me more about this item?,Product Information,2026-07-15 00:43:00,P023
+MSG00529,PLAT900021,Customer,What is the usual delivery time?,Shipping Query,2026-08-01 17:05:00,
+MSG00530,PLAT900094,Customer,What is the price of this product?,Product Information,2026-09-20 21:07:00,P046
+MSG00531,PLAT900032,Customer,Do you deliver across India?,Shipping Query,2026-06-07 05:53:00,
+MSG00532,PLAT900032,Customer,What is the price of this product?,Product Information,2026-06-26 11:59:00,P025
+MSG00533,PLAT900047,Customer,How long does delivery usually take?,Shipping Query,2026-07-11 23:01:00,
+MSG00534,PLAT900174,Customer,Has my order been shipped?,Order Tracking,2026-07-03 02:52:00,
+MSG00535,PLAT900188,Customer,Please connect me with customer support.,Human Support,2026-07-28 22:14:00,
+MSG00536,PLAT900062,Customer,Is this currently in stock?,Inventory Check,2026-07-19 01:17:00,P064
+MSG00537,PLAT900093,Customer,I want a refund.,Human Support,2026-03-06 06:52:00,
+MSG00538,PLAT900076,Customer,How long does delivery usually take?,Shipping Query,2026-09-19 08:36:00,
+MSG00539,PLAT900113,Customer,I received the wrong item.,Human Support,2026-04-08 17:12:00,
+MSG00540,PLAT900023,Customer,Please connect me with customer support.,Human Support,2026-09-29 19:36:00,
+MSG00541,PLAT900168,Customer,Is this available in M?,Inventory Check,2026-08-19 04:47:00,P009
+MSG00542,PLAT900105,Customer,Is size L available?,Inventory Check,2026-05-12 16:46:00,P036
+MSG00543,PLAT900063,Customer,Is this available in M?,Inventory Check,2026-09-22 21:34:00,P079
+MSG00544,PLAT900122,Customer,When will my order arrive?,Order Tracking,2026-02-24 13:41:00,
+MSG00545,PLAT900062,Customer,What colours are available?,Product Information,2026-08-24 13:17:00,P016
+MSG00546,PLAT900187,Customer,I received the wrong item.,Human Support,2026-08-20 11:33:00,
+MSG00547,PLAT900134,Customer,What material is this?,Product Information,2026-07-01 08:58:00,P054
+MSG00548,PLAT900001,Customer,I received the wrong item.,Human Support,2026-08-18 00:25:00,
+MSG00549,PLAT900122,Customer,Is size L available?,Inventory Check,2026-03-16 18:51:00,P004
+MSG00550,PLAT900046,Customer,Is this currently in stock?,Inventory Check,2026-04-27 07:12:00,P022
+MSG00551,PLAT900020,Customer,Has my order been shipped?,Order Tracking,2026-06-05 20:40:00,
+MSG00552,PLAT900024,Customer,What is the price of this product?,Product Information,2026-08-12 13:51:00,P004
+MSG00553,PLAT900089,Customer,Please connect me with customer support.,Human Support,2026-09-04 08:15:00,
+MSG00554,PLAT900158,Customer,Can you tell me more about this item?,Product Information,2026-04-29 10:53:00,P007
+MSG00555,PLAT900167,Customer,Can you check my order status?,Order Tracking,2026-04-17 19:39:00,
+MSG00556,PLAT900147,Customer,How long does delivery usually take?,Shipping Query,2026-08-02 14:37:00,
+MSG00557,PLAT900184,Customer,What is the price of this product?,Product Information,2026-06-24 01:24:00,P041
+MSG00558,PLAT900077,Customer,What material is this?,Product Information,2026-02-03 14:03:00,P039
+MSG00559,PLAT900059,Customer,Please connect me with customer support.,Human Support,2026-07-28 02:06:00,
+MSG00560,PLAT900020,Customer,What is the price of this product?,Product Information,2026-07-04 12:25:00,P013
+MSG00561,PLAT900138,Customer,I received the wrong item.,Human Support,2026-08-15 19:50:00,
+MSG00562,PLAT900055,Customer,I want to return my order.,Human Support,2026-09-02 12:29:00,
+MSG00563,PLAT900158,Customer,How long does delivery usually take?,Shipping Query,2026-05-24 20:43:00,
+MSG00564,PLAT900075,Customer,Can you tell me more about this item?,Product Information,2026-08-05 10:37:00,P025
+MSG00565,PLAT900139,Customer,What is the price of this product?,Product Information,2026-02-14 19:45:00,P009
+MSG00566,PLAT900187,Customer,I want a refund.,Human Support,2026-08-30 04:40:00,
+MSG00567,PLAT900039,Customer,My product arrived damaged.,Human Support,2026-06-07 13:30:00,
+MSG00568,PLAT900022,Customer,I received the wrong item.,Human Support,2026-03-09 07:08:00,
+MSG00569,PLAT900197,Customer,What is the price of this product?,Product Information,2026-08-04 09:37:00,P056
+MSG00570,PLAT900106,Customer,Please connect me with customer support.,Human Support,2026-07-15 09:37:00,
+MSG00571,PLAT900147,Customer,I want a refund.,Human Support,2026-04-01 15:19:00,
+MSG00572,PLAT900104,Customer,My product arrived damaged.,Human Support,2026-06-13 11:00:00,
+MSG00573,PLAT900134,Customer,I want to cancel my order.,Human Support,2026-09-17 21:09:00,
+MSG00574,PLAT900104,Customer,What material is this?,Product Information,2026-02-11 13:22:00,P026
+MSG00575,PLAT900026,Customer,Do you have this in black?,Inventory Check,2026-09-29 02:21:00,P025
+MSG00576,PLAT900097,Customer,What is the usual delivery time?,Shipping Query,2026-09-15 22:21:00,
+MSG00577,PLAT900192,Customer,I want to cancel my order.,Human Support,2026-07-26 19:19:00,
+MSG00578,PLAT900193,Customer,Do you deliver across India?,Shipping Query,2026-06-07 03:29:00,
+MSG00579,PLAT900050,Customer,Can you tell me more about this item?,Product Information,2026-08-13 00:40:00,P029
+MSG00580,PLAT900096,Customer,Is this currently in stock?,Inventory Check,2026-07-02 06:15:00,P062
+MSG00581,PLAT900194,Customer,When will my order arrive?,Order Tracking,2026-04-12 12:11:00,
+MSG00582,PLAT900190,Customer,What colours are available?,Product Information,2026-03-01 02:22:00,P004
+MSG00583,PLAT900163,Customer,I want to return my order.,Human Support,2026-09-07 09:28:00,
+MSG00584,PLAT900030,Customer,Is size L available?,Inventory Check,2026-08-27 00:12:00,P026
+MSG00585,PLAT900018,Customer,Can you check my order status?,Order Tracking,2026-03-18 08:46:00,
+MSG00586,PLAT900135,Customer,Is size L available?,Inventory Check,2026-09-24 07:11:00,P026
+MSG00587,PLAT900008,Customer,What material is this?,Product Information,2026-08-05 03:01:00,P087
+MSG00588,PLAT900174,Customer,Is this currently in stock?,Inventory Check,2026-08-31 03:21:00,P027
+MSG00589,PLAT900090,Customer,When will my order arrive?,Order Tracking,2026-04-21 11:51:00,
+MSG00590,PLAT900171,Customer,Can you check my order status?,Order Tracking,2026-09-27 19:56:00,
+MSG00591,PLAT900141,Customer,How long does delivery usually take?,Shipping Query,2026-03-04 04:56:00,
+MSG00592,PLAT900110,Customer,Do you have this in black?,Inventory Check,2026-06-26 17:24:00,P089
+MSG00593,PLAT900003,Customer,Has my order been shipped?,Order Tracking,2026-09-07 13:40:00,
+MSG00594,PLAT900199,Customer,Is this available in M?,Inventory Check,2026-04-19 17:18:00,P020
+MSG00595,PLAT900120,Customer,Can you check my order status?,Order Tracking,2026-05-11 20:50:00,
+MSG00596,PLAT900067,Customer,Can you check my order status?,Order Tracking,2026-09-17 16:37:00,
+MSG00597,PLAT900059,Customer,How many days does shipping take?,Shipping Query,2026-09-04 02:50:00,
+MSG00598,PLAT900084,Customer,How long does delivery usually take?,Shipping Query,2026-04-01 16:24:00,
+MSG00599,PLAT900186,Customer,My product arrived damaged.,Human Support,2026-09-15 16:29:00,
+MSG00600,PLAT900129,Customer,Is size L available?,Inventory Check,2026-09-19 16:44:00,P062

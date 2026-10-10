@@ -1,0 +1,101 @@
+product_id,product_name,category,price,material,active_status
+P001,Printed Kurta 01,Kurtas,1699,Chanderi,Active
+P002,Embroidered Kurta 02,Kurtas,1699,Rayon,Inactive
+P003,Crop Shirt 03,Tops,1899,Linen,Inactive
+P004,Straight Kurta 04,Kurtas,1699,Silk Blend,Active
+P005,Embroidered Kurta 05,Kurtas,2799,Rayon,Active
+P006,Wrap Dress 06,Dresses,2199,Silk Blend,Inactive
+P007,Straight Kurta 07,Kurtas,2199,Silk Blend,Active
+P008,Printed Top 08,Tops,3499,Silk Blend,Inactive
+P009,Pleated Maxi Dress 09,Dresses,3299,Polyester,Active
+P010,Quilted Jacket 10,Jackets,2799,Denim,Inactive
+P011,Lightweight Blazer 11,Jackets,1899,Polyester,Active
+P012,Festive Kurta 12,Kurtas,799,Chanderi,Active
+P013,Utility Jacket 13,Jackets,1299,Denim,Active
+P014,Floral Midi Dress 14,Dresses,1999,Rayon,Active
+P015,Floral Midi Dress 15,Dresses,1699,Cotton,Active
+P016,Embroidered Co-ord Set 16,Co-ords,1199,Linen,Active
+P017,Straight Pants 17,Bottoms,1199,Linen,Active
+P018,Festive Kurta 18,Kurtas,2799,Rayon,Active
+P019,Straight Pants 19,Bottoms,1299,Denim,Active
+P020,Printed Kurta 20,Kurtas,2799,Cotton,Inactive
+P021,Printed Kurta 21,Kurtas,2799,Chanderi,Active
+P022,Printed Kurta 22,Kurtas,2499,Viscose,Active
+P023,Printed Kurta 23,Kurtas,1999,Viscose,Active
+P024,Embroidered Kurta 24,Kurtas,999,Rayon,Active
+P025,Party Co-ord Set 25,Co-ords,1499,Silk Blend,Active
+P026,Quilted Jacket 26,Jackets,1499,Denim,Active
+P027,Denim Jacket 27,Jackets,2499,Knit,Active
+P028,Printed Co-ord Set 28,Co-ords,2499,Rayon,Active
+P029,Crop Shirt 29,Tops,1499,Silk Blend,Active
+P030,Cropped Jacket 30,Jackets,2799,Denim,Inactive
+P031,Denim Jacket 31,Jackets,1499,Knit,Active
+P032,Printed Co-ord Set 32,Co-ords,999,Rayon,Active
+P033,A-Line Kurta 33,Kurtas,1299,Rayon,Active
+P034,Party Co-ord Set 34,Co-ords,2199,Rayon,Active
+P035,Embroidered Co-ord Set 35,Co-ords,3299,Rayon,Active
+P036,Linen Co-ord Set 36,Co-ords,1999,Cotton,Active
+P037,Printed Top 37,Tops,3499,Knit,Active
+P038,Pleated Maxi Dress 38,Dresses,799,Polyester,Active
+P039,Printed Kurta 39,Kurtas,2799,Viscose,Active
+P040,Utility Jacket 40,Jackets,999,Cotton,Active
+P041,Pleated Skirt 41,Bottoms,1699,Polyester,Active
+P042,Pleated Maxi Dress 42,Dresses,2999,Polyester,Active
+P043,Wrap Dress 43,Dresses,799,Cotton,Active
+P044,Straight Kurta 44,Kurtas,999,Rayon,Inactive
+P045,Printed Top 45,Tops,1999,Rayon,Active
+P046,Lightweight Blazer 46,Jackets,1899,Cotton,Inactive
+P047,Denim Jacket 47,Jackets,3499,Knit,Active
+P048,Linen Co-ord Set 48,Co-ords,2999,Rayon,Active
+P049,A-Line Kurta 49,Kurtas,3499,Viscose,Active
+P050,Utility Jacket 50,Jackets,2199,Polyester,Active
+P051,Printed Co-ord Set 51,Co-ords,999,Viscose,Active
+P052,Crop Shirt 52,Tops,799,Cotton,Active
+P053,Ribbed Top 53,Tops,3299,Polyester,Active
+P054,Straight Pants 54,Bottoms,2499,Linen,Active
+P055,Satin Blouse 55,Tops,3299,Linen,Active
+P056,Wide-Leg Trousers 56,Bottoms,1499,Linen,Inactive
+P057,Palazzo Pants 57,Bottoms,3299,Linen,Active
+P058,Wrap Dress 58,Dresses,799,Silk Blend,Active
+P059,Crop Shirt 59,Tops,1699,Cotton,Active
+P060,Wrap Dress 60,Dresses,2999,Chanderi,Active
+P061,Denim Jacket 61,Jackets,1999,Knit,Active
+P062,Pleated Skirt 62,Bottoms,999,Denim,Active
+P063,Wide-Leg Trousers 63,Bottoms,2999,Polyester,Active
+P064,Denim Jacket 64,Jackets,799,Knit,Active
+P065,Straight Kurta 65,Kurtas,1999,Silk Blend,Active
+P066,A-Line Dress 66,Dresses,2499,Rayon,Active
+P067,Party Co-ord Set 67,Co-ords,2799,Polyester,Active
+P068,Embroidered Co-ord Set 68,Co-ords,2499,Polyester,Active
+P069,Pleated Skirt 69,Bottoms,1899,Cotton,Active
+P070,Ruched Party Dress 70,Dresses,2999,Viscose,Active
+P071,Printed Top 71,Tops,1699,Knit,Active
+P072,Straight Kurta 72,Kurtas,1699,Silk Blend,Active
+P073,Relaxed Co-ord Set 73,Co-ords,1199,Silk Blend,Inactive
+P074,Floral Midi Dress 74,Dresses,3499,Linen,Active
+P075,A-Line Dress 75,Dresses,3299,Rayon,Active
+P076,Pleated Skirt 76,Bottoms,2199,Viscose,Active
+P077,Printed Kurta 77,Kurtas,3499,Silk Blend,Inactive
+P078,Denim Jacket 78,Jackets,1499,Polyester,Active
+P079,Pleated Skirt 79,Bottoms,1299,Linen,Active
+P080,Cotton Shirt 80,Tops,1699,Knit,Active
+P081,A-Line Dress 81,Dresses,2499,Viscose,Active
+P082,Pleated Skirt 82,Bottoms,2499,Polyester,Active
+P083,Utility Jacket 83,Jackets,799,Cotton,Active
+P084,Relaxed Co-ord Set 84,Co-ords,1699,Cotton,Active
+P085,Crop Shirt 85,Tops,2799,Viscose,Active
+P086,Denim Jacket 86,Jackets,999,Cotton,Active
+P087,Printed Kurta 87,Kurtas,1199,Viscose,Active
+P088,Party Co-ord Set 88,Co-ords,2499,Cotton,Inactive
+P089,Ribbed Top 89,Tops,3299,Polyester,Active
+P090,A-Line Dress 90,Dresses,1999,Chanderi,Active
+P091,Embroidered Kurta 91,Kurtas,1499,Rayon,Active
+P092,A-Line Dress 92,Dresses,1899,Linen,Active
+P093,Lightweight Blazer 93,Jackets,1999,Polyester,Active
+P094,Festive Kurta 94,Kurtas,799,Cotton,Active
+P095,Ribbed Top 95,Tops,3299,Rayon,Active
+P096,Floral Midi Dress 96,Dresses,1999,Chanderi,Active
+P097,Festive Kurta 97,Kurtas,2999,Rayon,Active
+P098,Utility Jacket 98,Jackets,999,Knit,Inactive
+P099,Pleated Maxi Dress 99,Dresses,799,Georgette,Inactive
+P100,Party Co-ord Set 100,Co-ords,1899,Polyester,Active
